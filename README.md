@@ -20,7 +20,7 @@ A pontuação de privacidade oferece uma maneira simples de entender o quão seg
 1. **Clone o repositório**:
    ```bash
    git clone https://https://github.com/brunameinberg/SecurityPlugin.git
-   cd protect-web
+   cd SecurityPlugin
 
  2. **Carregar a extensão no navegador**:
 - Abra o Firefox e vá para  `about:debugging#/runtime/this-firefox`.
