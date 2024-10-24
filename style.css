@@ -1,0 +1,75 @@
+/* Fonte principal */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body {
+    width: 260px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f8fc;
+    padding: 15px;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #3e8e41; /* Verde escuro para o título */
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #555; /* Cinza suave */
+}
+
+.data-block {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.data-block:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    font-size: 14px;
+    color: #333; /* Cinza escuro para o texto */
+    margin: 0 0 8px;
+}
+
+.score {
+    font-weight: bold;
+    color: #e74c3c; /* Vermelho para a pontuação */
+    text-align: center;
+    font-size: 18px;
+}
+
+.score-info {
+    color: #3e8e41; /* Verde para a informação da pontuação */
+    font-size: 13px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 11px;
+    color: #aaa; /* Cinza claro para o rodapé */
+}
+
+footer a {
+    color: #3e8e41; /* Verde escuro */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

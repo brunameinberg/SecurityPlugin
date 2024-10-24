@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Analizador de Vulnerabilidades Web",
+    "version": "1.0",
+    "description": "Monitora cookies, armazenamento local, e fingerprinting.",
+    "permissions": [
+      "webRequest",
+      "webRequestBlocking",
+      "cookies",
+      "storage",
+      "<all_urls>",
+      "activeTab"
+    ],
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "browser_action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
